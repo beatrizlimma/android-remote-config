@@ -16,7 +16,7 @@
   },
   "policies": {
     "NORMAL": {
-      "crashEnabled": true,
+      "crashEnabled": false,
       "crashIntervalMs": 60000,
       "memoryEnabled": true,
       "memoryIntervalMs": 60000,
