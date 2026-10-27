@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "thermalHealth": {
     "0": "NORMAL",
     "1": "NORMAL",
@@ -10,9 +10,9 @@
     "6": "CRITICAL"
   },
   "monitoring": {
-    "pollIntervalMs":10000,
-    "attentionPercent": 25.0,
-    "criticalPercent": 12.0
+    "pollIntervalMs":50000,
+    "attentionPercent": 15.0,
+    "criticalPercent": 8.0
   },
   "policies": {
     "NORMAL": {
