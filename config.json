@@ -1,8 +1,8 @@
 {
   "version": 3,
   "thermalHealth": {
-    "0": "NORMAL",
-    "1": "NORMAL",
+    "0": "ATTENTION",
+    "1": "ATTENTION",
     "2": "ATTENTION",
     "3": "CRITICAL",
     "4": "CRITICAL",
