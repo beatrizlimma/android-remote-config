@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "thermalHealth": {
+    "0": "NORMAL",
+    "1": "NORMAL",
+    "2": "ATTENTION",
+    "3": "CRITICAL",
+    "4": "CRITICAL",
+    "5": "CRITICAL",
+    "6": "CRITICAL"
+  },
+  "monitoring": {
+    "pollIntervalMs": 30000,
+    "attentionPercent": 20.0,
+    "criticalPercent": 10.0
+  },
+  "policies": {
+    "NORMAL": {
+      "crashEnabled": true,
+      "crashIntervalMs": 60000,
+      "memoryEnabled": true,
+      "memoryIntervalMs": 60000,
+      "temperatureEnabled": true,
+      "temperatureIntervalMs": 60000,
+      "launchMonitorEnabled": true,
+      "dataStallMonitorEnabled": true,
+      "sendEnabled": true,
+      "sendIntervalMs": 300000
+    },
+    "ATTENTION": {
+      "crashEnabled": true,
+      "crashIntervalMs": 300000,
+      "memoryEnabled": true,
+      "memoryIntervalMs": 180000,
+      "temperatureEnabled": true,
+      "temperatureIntervalMs": 120000,
+      "launchMonitorEnabled": true,
+      "dataStallMonitorEnabled": false,
+      "sendEnabled": false,
+      "sendIntervalMs": 0
+    },
+    "CRITICAL": {
+      "crashEnabled": false,
+      "crashIntervalMs": 900000,
+      "memoryEnabled": true,
+      "memoryIntervalMs": 300000,
+      "temperatureEnabled": true,
+      "temperatureIntervalMs": 300000,
+      "launchMonitorEnabled": false,
+      "dataStallMonitorEnabled": false,
+      "sendEnabled": false,
+      "sendIntervalMs": 0
+    }
+  }
+}
