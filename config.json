@@ -1,14 +1,18 @@
 {
   "version": 3,
   "thermalHealth": {
-    "0": "ATTENTION",
-    "1": "ATTENTION",
+    "0": "NORMAL",
+    "1": "NORMAL",
     "2": "ATTENTION",
     "3": "CRITICAL",
     "4": "CRITICAL",
     "5": "CRITICAL",
     "6": "CRITICAL"
   },
+  "memoryHealth": {
+    "20.0": ATTENTION,
+    "10.0": "CRITICAL"
+  }
   "monitoring": {
     "pollIntervalMs":50000,
     "attentionPercent": 15.0,
@@ -16,7 +20,7 @@
   },
   "policies": {
     "NORMAL": {
-      "crashEnabled": false,
+      "crashEnabled": true,
       "crashIntervalMs": 60000,
       "memoryEnabled": true,
       "memoryIntervalMs": 60000,
