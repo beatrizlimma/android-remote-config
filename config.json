@@ -10,7 +10,7 @@
     "6": "CRITICAL"
   },
   "memoryHealth": {
-    "20.0": ATTENTION,
+    "20.0": "ATTENTION",
     "10.0": "CRITICAL"
   }
   "monitoring": {
