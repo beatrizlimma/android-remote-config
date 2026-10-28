@@ -9,14 +9,10 @@
     "5": "CRITICAL",
     "6": "CRITICAL"
   },
-  "memoryHealth": {
-    "20.0": "ATTENTION",
-    "10.0": "CRITICAL"
-  }
   "monitoring": {
     "pollIntervalMs":50000,
-    "attentionPercent": 15.0,
-    "criticalPercent": 8.0
+    "attentionPercent": 20.0,
+    "criticalPercent": 10.0
   },
   "policies": {
     "NORMAL": {
